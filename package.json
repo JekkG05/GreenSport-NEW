@@ -1,0 +1,15 @@
+{
+  "name": "greensport-booking",
+  "version": "1.0.0",
+  "description": "Website booking lapangan olahraga untuk praktikum SQA",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}
